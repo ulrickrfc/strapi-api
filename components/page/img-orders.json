@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_img_orders",
+  "info": {
+    "name": "imgOrders",
+    "icon": "file-archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ordem1": {
+      "type": "string",
+      "required": true
+    },
+    "ordem2": {
+      "type": "string",
+      "required": false
+    },
+    "ordem3": {
+      "type": "string",
+      "required": true
+    },
+    "ordem4": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

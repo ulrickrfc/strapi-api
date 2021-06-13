@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_count_items",
+  "info": {
+    "name": "countItem",
+    "icon": "sort-numeric-up"
+  },
+  "options": {},
+  "attributes": {
+    "countTitle": {
+      "type": "string",
+      "required": true
+    },
+    "countNumber": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

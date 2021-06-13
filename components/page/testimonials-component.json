@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_testimonials_components",
+  "info": {
+    "name": "testimonialsComponent",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "testimonialItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.testimonial-item",
+      "max": 5,
+      "min": 5,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_service_cards",
+  "info": {
+    "name": "serviceCard",
+    "icon": "chart-area"
+  },
+  "options": {},
+  "attributes": {
+    "iconClassName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

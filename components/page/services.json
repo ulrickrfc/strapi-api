@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_services",
+  "info": {
+    "name": "services",
+    "icon": "mouse-pointer"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "servicesCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.service-card",
+      "min": 6,
+      "max": 6,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_menu_links",
+  "info": {
+    "name": "menuLinks",
+    "icon": "minus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.links",
+      "required": true,
+      "max": 7,
+      "min": 7
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

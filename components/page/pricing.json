@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_page_pricings",
+  "info": {
+    "name": "pricing",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "pricingCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.pricing-cards",
+      "required": true
+    }
+  }
+}

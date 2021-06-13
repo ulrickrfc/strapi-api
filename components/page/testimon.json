@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_testimons",
+  "info": {
+    "name": "testimon",
+    "icon": "apple-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "testimonItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.testimon-item",
+      "max": 5,
+      "min": 5
+    }
+  }
+}

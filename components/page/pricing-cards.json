@@ -1,0 +1,80 @@
+{
+  "collectionName": "components_page_pricing_cards",
+  "info": {
+    "name": "pricingCards",
+    "icon": "credit-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item5Cut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "item3": {
+      "type": "string",
+      "required": true
+    },
+    "period": {
+      "type": "string",
+      "required": true
+    },
+    "item4Cut": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "item4": {
+      "type": "string",
+      "required": true
+    },
+    "item3Cut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "item5": {
+      "type": "string",
+      "required": true
+    },
+    "item2Cut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "item1Cut": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "price": {
+      "type": "integer",
+      "required": true
+    },
+    "moneyType": {
+      "type": "string",
+      "required": true
+    },
+    "buttonURL": {
+      "type": "string",
+      "required": true
+    },
+    "item1": {
+      "type": "string",
+      "required": true
+    },
+    "buttonValue": {
+      "type": "string",
+      "required": true
+    },
+    "item2": {
+      "type": "string",
+      "required": true
+    },
+    "plan": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

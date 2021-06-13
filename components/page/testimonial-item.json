@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_testimonial_items",
+  "info": {
+    "name": "testimonialItem",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "job": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

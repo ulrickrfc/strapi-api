@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_counts",
+  "info": {
+    "name": "Counts",
+    "icon": "sort-numeric-up-alt"
+  },
+  "options": {},
+  "attributes": {
+    "countItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.count-item",
+      "required": true,
+      "max": 4,
+      "min": 4
+    }
+  }
+}

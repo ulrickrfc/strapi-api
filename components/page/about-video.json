@@ -1,0 +1,42 @@
+{
+  "collectionName": "components_page_about_videos",
+  "info": {
+    "name": "AboutVideo",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "imgVideo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "videoURL": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.list",
+      "required": true
+    },
+    "finalText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

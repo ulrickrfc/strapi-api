@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_call_to_actions",
+  "info": {
+    "name": "callToAction",
+    "icon": "chalkboard-teacher"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "page.button"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_page_aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "icon": "eye",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "firstText": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.list",
+      "required": true
+    },
+    "secondText": {
+      "type": "text",
+      "required": false
+    },
+    "AboutButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}

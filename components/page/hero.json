@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "HeroButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    },
+    "HeroCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.hero-cards",
+      "required": true,
+      "max": 4,
+      "min": 4
+    }
+  }
+}

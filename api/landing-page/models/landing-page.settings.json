@@ -1,0 +1,102 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "landingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "menuLinks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.menu-links",
+      "required": true
+    },
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.hero",
+      "required": true
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-us",
+      "required": true
+    },
+    "counts": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.counts",
+      "required": true
+    },
+    "AboutVideo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-video",
+      "required": true
+    },
+    "clients": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.clients",
+      "required": true
+    },
+    "services": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.services",
+      "required": true
+    },
+    "callToAction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.call-to-action",
+      "required": true
+    },
+    "portfolio": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.portfolio"
+    },
+    "team": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.team",
+      "required": true
+    },
+    "testimon": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.testimon",
+      "required": true
+    },
+    "prices": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing",
+      "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.faq"
+    }
+  }
+}

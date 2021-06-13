@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_page_testimon_items",
+  "info": {
+    "name": "testimonItem",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "comment": {
+      "type": "text",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "job": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

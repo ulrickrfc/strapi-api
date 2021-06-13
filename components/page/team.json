@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_teams",
+  "info": {
+    "name": "Team",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "teamCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.team-cards",
+      "min": 4,
+      "max": 4,
+      "required": true
+    }
+  }
+}

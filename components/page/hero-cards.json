@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_hero_cards",
+  "info": {
+    "name": "HeroCards",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "IconClassName": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
