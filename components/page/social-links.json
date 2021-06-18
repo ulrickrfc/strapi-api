@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_social_links",
+  "info": {
+    "name": "socialLinks",
+    "icon": "file-word",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia_classIcon": {
+      "type": "string",
+      "required": true
+    },
+    "socialMedia_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

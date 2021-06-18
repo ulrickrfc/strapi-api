@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_page_footers",
+  "info": {
+    "name": "footer",
+    "icon": "chevron-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "street": {
+      "type": "string",
+      "required": true
+    },
+    "company_name": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "linkList1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.links",
+      "required": true,
+      "max": 5,
+      "min": 5
+    },
+    "linkList2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.links",
+      "required": true,
+      "max": 5,
+      "min": 5
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "city_state": {
+      "type": "string"
+    },
+    "newsLetter_title": {
+      "type": "string",
+      "required": true
+    },
+    "newsLetter_subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.social-links",
+      "required": true,
+      "max": 5,
+      "min": 5
+    }
+  }
+}

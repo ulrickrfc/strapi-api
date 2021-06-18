@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_page_contacts",
+  "info": {
+    "name": "contact",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "locationIframe": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

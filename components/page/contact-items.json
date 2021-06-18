@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_contact_items",
+  "info": {
+    "name": "contactItems",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "iconClass": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "Subscribers",
+  "info": {
+    "name": "Subscribers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
